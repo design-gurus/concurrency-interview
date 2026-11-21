@@ -132,3 +132,5 @@ func (b *TokenBucket) TryAcquire() bool {
 - [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter) designs a distributed rate limiter as a full system.
 - The [Grokking System Design repository](https://github.com/design-gurus/grokking-system-design) compares the rate limiting algorithms in one cheat sheet.
 - Related pages: [atomics and memory visibility](../concepts/atomics-and-memory-visibility.md).
+- Free article: [How to Design a Rate Limiter: Algorithms, Architecture, and Trade-offs](https://www.designgurus.io/blog/grokking-rate-limiters?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter), the system design version of the same problem.
+- Free answer: [What Is Token Bucket vs Leaky Bucket?](https://www.designgurus.io/answers/detail/what-is-token-bucket-vs-leaky-bucket?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter), a comparison of the two algorithms.

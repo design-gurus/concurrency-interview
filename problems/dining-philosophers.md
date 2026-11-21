@@ -110,3 +110,5 @@ func (d *DiningPhilosophers) Dine(philosopher int, eat func()) {
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-dining-philosophers) covers the semaphore and try-lock versions with full explanations.
 - Related pages: [deadlock, livelock, and starvation](../concepts/deadlock-livelock-and-starvation.md) and [locks, mutexes, and semaphores](../concepts/locks-mutexes-and-semaphores.md).
+- Free article: [Deadlock vs Livelock: Key Differences and How to Prevent Both](https://www.designgurus.io/blog/deadlock-vs-livelock?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-dining-philosophers), the two failures that this problem demonstrates.
+- Free answer: [Types of Deadlock in an Operating System](https://www.designgurus.io/answers/detail/what-are-the-4-types-of-deadlock?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-dining-philosophers), background on how deadlocks are classified.

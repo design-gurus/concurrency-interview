@@ -94,6 +94,16 @@ Python threads are real operating system threads, but the standard interpreter a
 
 A candidate who already writes multi-threaded code can cover this repository in about 6 to 8 hours: 2 hours for the concepts, 4 hours for the problems, and the rest for the cheat sheets. A candidate who is new to the topic should plan for 2 to 3 weeks with a structured course.
 
+## Free reading on DesignGurus.io
+
+- [Thread Safety 101: Designing Code for Concurrency](https://www.designgurus.io/blog/thread-safety-concurrency?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): the design habits that keep shared state safe.
+- [Concurrency vs Parallelism: Why They're Not the Same Thing](https://www.designgurus.io/blog/concurrency-vs-parallelism?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): the distinction that most concurrency rounds start with.
+- [Deadlock vs Livelock: Key Differences and How to Prevent Both](https://www.designgurus.io/blog/deadlock-vs-livelock?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): a comparison of the two failures and their fixes.
+- [Asyncio vs Threading vs Multiprocessing in Python, With Measurements](https://www.designgurus.io/blog/asyncio-vs-threading-vs-multiprocessing?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): the three Python models compared with measured results.
+- [The Python GIL Explained, and What Free-Threaded Python Changes](https://www.designgurus.io/blog/python-gil-explained?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): why Python threads do not run CPU work in parallel.
+- [20 Concurrency and Parallelism Interview Questions (Answered)](https://www.designgurus.io/answers/detail/what-are-some-concurrency-and-parallelism-interview-questions?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): more questions with model answers.
+- [Top Concurrency and Multithreading Considerations for System Design Interviews](https://www.designgurus.io/answers/detail/top-concurrency-and-multithreading-for-system-design-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=readme): how the same ideas appear in the design round.
+
 ## Go deeper
 
 This repository is a summary. The courses below teach the same material step by step, with many more problems and with explanations of every solution.
