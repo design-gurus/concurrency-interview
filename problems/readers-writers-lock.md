@@ -97,7 +97,7 @@ class ReadWriteLock:
             self._cond.notify_all()
 ```
 
-The Python standard library has no readers-writers lock, so a Python candidate has to build one from a lock and a condition variable.
+The Python standard library has no readers-writers lock, so Python candidates build one by hand.
 
 ## Go
 
