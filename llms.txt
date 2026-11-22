@@ -1,0 +1,69 @@
+# Concurrency Interview
+
+> Core concepts and nine classic problems solved in Java, Python, and Go. A free guide from DesignGurus.io, in plain Markdown, with no account required.
+
+Each page is short and ends with links to full course lessons and free articles. Each description below is the opening sentence of that page.
+
+## Cheat sheets
+
+- [Common Mistakes in Concurrency Interviews](https://github.com/design-gurus/concurrency-interview/blob/main/cheat-sheets/common-mistakes.md): Most candidates who fail a concurrency round know the primitives.
+- [Java vs Python vs Go: Concurrency Primitives](https://github.com/design-gurus/concurrency-interview/blob/main/cheat-sheets/java-vs-python-vs-go-primitives.md): The three languages offer the same ideas under different names.
+- [Concurrency Interview Question Bank](https://github.com/design-gurus/concurrency-interview/blob/main/cheat-sheets/question-bank.md): Fifty conceptual questions that appear in concurrency and multithreading interviews, each with a one-line answer.
+
+## Concepts
+
+- [Async vs Threads](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/async-vs-threads.md): Threads let the operating system switch between tasks at any moment.
+- [Atomics and Memory Visibility](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/atomics-and-memory-visibility.md): Two separate problems hide behind the phrase "thread-safe".
+- [Condition Variables and Monitors](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/condition-variables-and-monitors.md): A mutex answers the question "may I touch this data now?".
+- [Deadlock, Livelock, and Starvation](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/deadlock-livelock-and-starvation.md): These are the three ways in which a concurrent program stops making progress without crashing.
+- [Locks, Mutexes, and Semaphores](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/locks-mutexes-and-semaphores.md): A mutex (short for mutual exclusion) is a lock that one thread at a time can hold.
+- [Race Conditions](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/race-conditions.md): A race condition is a bug in which the result of a program depends on the order in which threads happen to run.
+- [Thread Pools](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/thread-pools.md): A thread pool is a fixed set of worker threads that take tasks from a shared queue.
+- [Threads vs Processes](https://github.com/design-gurus/concurrency-interview/blob/main/concepts/threads-vs-processes.md): A process is a running program with its own private memory.
+
+## Problems
+
+- [Bounded Buffer (Producer and Consumer)](https://github.com/design-gurus/concurrency-interview/blob/main/problems/bounded-buffer.md): Build a queue with a fixed capacity that several threads share.
+- [Concurrent Web Crawler](https://github.com/design-gurus/concurrency-interview/blob/main/problems/concurrent-web-crawler.md): Given a start URL and a function fetch(url) that returns the links on a page, return every reachable URL on the same host.
+- [Dining Philosophers](https://github.com/design-gurus/concurrency-interview/blob/main/problems/dining-philosophers.md): Five philosophers sit at a round table with one fork between each pair of neighbors, so there are five forks.
+- [Odd-Even Printer](https://github.com/design-gurus/concurrency-interview/blob/main/problems/odd-even-printer.md): Two threads share a counter.
+- [Print in Order](https://github.com/design-gurus/concurrency-interview/blob/main/problems/print-in-order.md): Three threads call first, second, and third on the same object, one method each, and the scheduler may start them in any order.
+- [Readers-Writers Lock](https://github.com/design-gurus/concurrency-interview/blob/main/problems/readers-writers-lock.md): Build a lock that allows any number of readers at the same time but only one writer, and never a reader and a writer together.
+- [Thread-Safe LRU Cache](https://github.com/design-gurus/concurrency-interview/blob/main/problems/thread-safe-lru-cache.md): Build a cache that holds at most N entries and removes the least recently used (LRU) entry when it is full.
+- [Thread-Safe Singleton](https://github.com/design-gurus/concurrency-interview/blob/main/problems/thread-safe-singleton.md): Create a class that has exactly one instance, built the first time it is needed.
+- [Token Bucket Rate Limiter](https://github.com/design-gurus/concurrency-interview/blob/main/problems/token-bucket-rate-limiter.md): Build a rate limiter that many threads call before doing work.
+
+## Related free guides
+
+- [Grokking System Design](https://github.com/design-gurus/grokking-system-design): 30 patterns, 59 question walkthroughs, 35 cheat sheets, and guides for 122 companies.
+- [Grokking Coding Interview](https://github.com/design-gurus/grokking-coding-interview): The 41 coding patterns and how to recognize each one in a new problem.
+- [Grokking AI System Design](https://github.com/design-gurus/grokking-ai-system-design): Building blocks and design questions for machine learning, LLM, and agent design rounds.
+- [Design Patterns](https://github.com/design-gurus/design-patterns): The 22 Gang of Four patterns and more than 60 system design patterns.
+- [Best System Design Resources](https://github.com/design-gurus/best-system-design-resources): Courses, books, papers, and videos, sorted by level.
+- [Best System Design Courses](https://github.com/design-gurus/best-system-design-courses): System design courses compared by format, depth, and level.
+- [System Design Numbers](https://github.com/design-gurus/system-design-numbers): Latency numbers, availability tables, traffic formulas, and ten worked capacity estimations.
+- [API Design Interview](https://github.com/design-gurus/api-design-interview): A six-step method for the API design round, the core concepts, and eight question walkthroughs.
+- [Frontend System Design Interview](https://github.com/design-gurus/frontend-system-design-interview): The client side of system design: rendering, state, caching, performance, and eight question walkthroughs.
+- [Mobile System Design Interview](https://github.com/design-gurus/mobile-system-design-interview): System design for iOS and Android engineers: offline sync, caching, push, performance, and eight question walkthroughs.
+- [Microservices Interview Questions](https://github.com/design-gurus/microservices-interview-questions): About 100 questions with short model answers, from service boundaries to sagas and migration.
+- [DevOps and SRE Interview](https://github.com/design-gurus/devops-sre-interview): The loop round by round: troubleshooting, Linux and networking, SRE system design, and incident response.
+- [Data Engineering Interview](https://github.com/design-gurus/data-engineering-interview): SQL, data modeling, and pipeline design rounds, with six pipeline design walkthroughs.
+- [Forward Deployed Engineer Interview](https://github.com/design-gurus/forward-deployed-engineer-interview): The forward deployed engineer loop, the decomposition round, and the loops at five companies.
+- [Solutions Architect Interview](https://github.com/design-gurus/solutions-architect-interview): Architecture design, customer discovery, and presentation rounds, with loops at five cloud and data companies.
+- [Staff Engineer Interview](https://github.com/design-gurus/staff-engineer-interview): What changes at staff level: the loop, system design at staff scope, the project deep dive, and down-leveling.
+- [Engineering Manager Interview](https://github.com/design-gurus/engineering-manager-interview): The manager loop round by round: people management, project retrospective, behavioral, and system design for managers.
+- [Amazon Leadership Principles](https://github.com/design-gurus/amazon-leadership-principles): All 16 principles with interview questions, sample answers, and how the Amazon loop works.
+- [Software Engineer Levels](https://github.com/design-gurus/software-engineer-levels): Engineering ladders at 17 companies, how levels map across them, and what interviews expect at each level.
+- [Google Interview Guide](https://github.com/design-gurus/google-interview-guide): The whole Google loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Meta Interview Guide](https://github.com/design-gurus/meta-interview-guide): The whole Meta loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Amazon Interview Guide](https://github.com/design-gurus/amazon-interview-guide): The whole Amazon loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Microsoft Interview Guide](https://github.com/design-gurus/microsoft-interview-guide): The whole Microsoft loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Apple Interview Guide](https://github.com/design-gurus/apple-interview-guide): The whole Apple loop: process, coding, system design, behavioral, levels, and a question bank.
+- [Netflix Interview Guide](https://github.com/design-gurus/netflix-interview-guide): The whole Netflix loop: process, coding, system design, behavioral, levels, and a question bank.
+- [OpenAI Interview Guide](https://github.com/design-gurus/openai-interview-guide): The whole OpenAI loop: process, coding, system design, behavioral, levels, and a question bank.
+
+## Optional
+
+The paid course this guide accompanies, for full lessons and worked solutions.
+
+- [Course on DesignGurus.io](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews): The course linked throughout this guide.
