@@ -128,6 +128,8 @@ This repository is a summary. The courses below teach the same material step by 
 
 Related free repositories: [Grokking the Coding Interview patterns](https://github.com/design-gurus/grokking-coding-interview) and [Grokking System Design](https://github.com/design-gurus/grokking-system-design).
 
+For the system design round, see [Grokking System Design](https://github.com/design-gurus/grokking-system-design), the free companion guide with 30 patterns, 59 question walkthroughs, and 35 cheat sheets.
+
 ## Contributing
 
 Corrections, clearer explanations, and solutions in other languages are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
