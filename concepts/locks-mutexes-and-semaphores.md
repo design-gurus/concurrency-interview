@@ -71,6 +71,9 @@ A plain mutex is the correct default. The other choices are optimizations that n
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-locks-mutexes-and-semaphores) covers each primitive with problems that require it.
+- Lesson: [Mutex Lock](https://www.designgurus.io/course-play/grokking-multithreading-and-concurrency-for-coding-interviews/doc/1-mutex-lock?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-locks-mutexes-and-semaphores), in Grokking Multithreading and Concurrency for Coding Interviews
+- Lesson: [Semaphore](https://www.designgurus.io/course-play/grokking-multithreading-and-concurrency-for-coding-interviews/doc/3-semaphore?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-locks-mutexes-and-semaphores), in Grokking Multithreading and Concurrency for Coding Interviews
+- Lesson: [Mutex: Protecting Shared State](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/mutex-protecting-shared-state?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-locks-mutexes-and-semaphores), in Grokking Concurrency in Go
 - Practice: the [readers-writers lock](../problems/readers-writers-lock.md) and the [dining philosophers](../problems/dining-philosophers.md).
 - Reference: the [Java, Python, and Go primitives table](../cheat-sheets/java-vs-python-vs-go-primitives.md).
 - Free answer: [What Is a Semaphore?](https://www.designgurus.io/answers/detail/what-is-a-semaphore?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-locks-mutexes-and-semaphores), a short explanation with examples.

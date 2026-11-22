@@ -116,5 +116,7 @@ A receive on a closed channel returns immediately, which is what makes a closed 
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-print-in-order) covers ordering problems and the signaling primitives behind them.
+- Lesson: [Problem 9: Print in Order Using Multithreading](https://www.designgurus.io/course-play/grokking-multithreading-and-concurrency-for-coding-interviews/doc/problem-9-print-in-order-using-multithreading?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-print-in-order), in Grokking Multithreading and Concurrency for Coding Interviews
+- Lesson: [Signaling with Closed Channels](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/signaling-with-closed-channels?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-print-in-order), in Grokking Concurrency in Go
 - [Grokking Concurrency in Go](https://www.designgurus.io/course/grokking-concurrency-in-go?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-print-in-order) explains closed channels, `select`, and `sync.WaitGroup`.
 - Related pages: the [odd-even printer](odd-even-printer.md), which repeats the hand-off many times, and [condition variables and monitors](../concepts/condition-variables-and-monitors.md).

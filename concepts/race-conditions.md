@@ -68,6 +68,9 @@ A strong answer names the exact interleaving that fails, as the table above does
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-race-conditions) teaches how to find and fix races through worked problems.
+- Lesson: [Race Conditions and Critical Sections](https://www.designgurus.io/course-play/grokking-multithreading-and-concurrency-for-coding-interviews/doc/critical-section-and-race-condition?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-race-conditions), in Grokking Multithreading and Concurrency for Coding Interviews
+- Lesson: [Data Races](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/data-races?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-race-conditions), in Grokking Concurrency in Go
+- Lesson: [Race Conditions in Python Code](https://www.designgurus.io/course-play/grokking-concurrency-in-python/doc/race-conditions-in-python-code?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-race-conditions), in Grokking Concurrency in Python
 - Next pages: [locks, mutexes, and semaphores](locks-mutexes-and-semaphores.md) and [atomics and memory visibility](atomics-and-memory-visibility.md).
 - Practice: the [thread-safe singleton](../problems/thread-safe-singleton.md) is a check-then-act race in its smallest form.
 - Free answer: [What Is a Race Condition?](https://www.designgurus.io/answers/detail/what-is-race-conditions?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-race-conditions), a short definition with an example.

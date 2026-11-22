@@ -119,5 +119,6 @@ func GetConfig() *Config {
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-singleton) explains safe publication and the Java memory model with worked problems.
+- Lesson: [Once, OnceFunc, and OnceValue](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/once-oncefunc-and-oncevalue?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-singleton), in Grokking Concurrency in Go
 - [Grokking Concurrency in Go](https://www.designgurus.io/course/grokking-concurrency-in-go?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-singleton) covers `sync.Once`, `sync.Mutex`, and the `sync/atomic` package.
 - Related pages: [atomics and memory visibility](../concepts/atomics-and-memory-visibility.md) and [race conditions](../concepts/race-conditions.md).

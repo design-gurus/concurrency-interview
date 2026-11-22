@@ -93,5 +93,8 @@ A CAS checks only that the value is the same, not that nothing happened. A value
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-atomics-and-memory-visibility) covers the memory model, atomics, and lock-free techniques with worked problems.
+- Lesson: [Atomic Operations](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/atomic-operations?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-atomics-and-memory-visibility), in Grokking Concurrency in Go
+- Lesson: [Compare and Swap](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/compare-and-swap?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-atomics-and-memory-visibility), in Grokking Concurrency in Go
+- Lesson: [The Go Memory Model](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/the-go-memory-model?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-atomics-and-memory-visibility), in Grokking Concurrency in Go
 - [Grokking Concurrency in Go](https://www.designgurus.io/course/grokking-concurrency-in-go?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-atomics-and-memory-visibility) covers `sync/atomic` and the Go memory model.
 - Related page: [race conditions](race-conditions.md).

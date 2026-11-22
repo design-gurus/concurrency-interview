@@ -149,6 +149,7 @@ func (c *LruCache[K, V]) Put(key K, value V) {
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-lru-cache) covers thread-safe data structures and the locking choices behind them.
+- Lesson: [Mutex: Protecting Shared State](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/mutex-protecting-shared-state?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-lru-cache), in Grokking Concurrency in Go
 - [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-lru-cache) covers the single-threaded data structure patterns that this problem builds on.
 - Related pages: [locks, mutexes, and semaphores](../concepts/locks-mutexes-and-semaphores.md) and the [readers-writers lock](readers-writers-lock.md).
 - Free answer: [146. LRU Cache: Detailed Explanation](https://www.designgurus.io/answers/detail/146-lru-cache-bgh238?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-thread-safe-lru-cache), the single-threaded version of the data structure.

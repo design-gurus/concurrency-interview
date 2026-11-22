@@ -78,6 +78,8 @@ Code between two `await` points runs without interruption, so many data races di
 ## Go deeper
 
 - [Grokking Concurrency in Python](https://www.designgurus.io/course/grokking-concurrency-in-python?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-async-vs-threads) covers threads, the GIL, `multiprocessing`, and `asyncio` in depth.
+- Lesson: [IO Bound Work, Asyncio or Threads](https://www.designgurus.io/course-play/grokking-concurrency-in-python/doc/io-bound-work-asyncio-or-threads?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-async-vs-threads), in Grokking Concurrency in Python
+- Lesson: [The Four Models and How to Size Them](https://www.designgurus.io/course-play/grokking-concurrency-in-python/doc/the-four-models-and-how-to-size-them?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-async-vs-threads), in Grokking Concurrency in Python
 - [Grokking Concurrency in Go](https://www.designgurus.io/course/grokking-concurrency-in-go?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-async-vs-threads) covers goroutines, channels, and the scheduler.
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-async-vs-threads) covers the thread-based interview problems.
 - Related pages: [threads versus processes](threads-vs-processes.md) and [thread pools](thread-pools.md).

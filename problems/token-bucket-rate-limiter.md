@@ -129,6 +129,8 @@ func (b *TokenBucket) TryAcquire() bool {
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter) covers rate limiter implementations as coding problems.
+- Lesson: [Rate Limiting with a Token Bucket](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/rate-limiting-with-a-token-bucket?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter), in Grokking Concurrency in Go
+- Lesson: [A Rate Limiter Shared by Threads](https://www.designgurus.io/course-play/grokking-concurrency-in-python/doc/a-rate-limiter-shared-by-threads?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter), in Grokking Concurrency in Python
 - [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-token-bucket-rate-limiter) designs a distributed rate limiter as a full system.
 - The [Grokking System Design repository](https://github.com/design-gurus/grokking-system-design) compares the rate limiting algorithms in one cheat sheet.
 - Related pages: [atomics and memory visibility](../concepts/atomics-and-memory-visibility.md).

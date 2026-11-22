@@ -169,5 +169,8 @@ func (l *ReadWriteLock) Unlock() {
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-readers-writers-lock) works through reader preference, writer preference, and fair versions.
+- Lesson: [Read/Write Locks](https://www.designgurus.io/course-play/grokking-multithreading-and-concurrency-for-coding-interviews/doc/2-readwrite-locks?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-readers-writers-lock), in Grokking Multithreading and Concurrency for Coding Interviews
+- Lesson: [RWMutex for Read Heavy Data](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/rwmutex-for-read-heavy-data?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-readers-writers-lock), in Grokking Concurrency in Go
+- Lesson: [Blocking Queue and Read-Write Lock](https://www.designgurus.io/course-play/grokking-concurrency-in-python/doc/blocking-queue-and-readwrite-lock?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-readers-writers-lock), in Grokking Concurrency in Python
 - [Grokking Concurrency in Python](https://www.designgurus.io/course/grokking-concurrency-in-python?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=problems-readers-writers-lock) covers `threading.Condition` and the patterns built on it.
 - Related pages: [deadlock, livelock, and starvation](../concepts/deadlock-livelock-and-starvation.md) and [locks, mutexes, and semaphores](../concepts/locks-mutexes-and-semaphores.md).

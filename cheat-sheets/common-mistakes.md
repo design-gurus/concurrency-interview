@@ -54,5 +54,6 @@ Run the three checks aloud, in that order. Finding and fixing a bug in your own 
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=cheat-sheets-common-mistakes) works through each of these mistakes inside full interview problems.
+- Lesson: [Common Concurrency Mistakes in Go](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/common-concurrency-mistakes-in-go?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=cheat-sheets-common-mistakes), in Grokking Concurrency in Go
 - Related pages: [condition variables and monitors](../concepts/condition-variables-and-monitors.md), [deadlock, livelock, and starvation](../concepts/deadlock-livelock-and-starvation.md), and the [question bank](question-bank.md).
 - Free article: [Thread Safety 101: Designing Code for Concurrency](https://www.designgurus.io/blog/thread-safety-concurrency?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=cheat-sheets-common-mistakes), the design habits that prevent most of these mistakes.

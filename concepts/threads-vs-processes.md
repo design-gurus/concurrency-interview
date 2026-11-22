@@ -62,6 +62,9 @@ A strong answer names shared memory first, and then states the consequence: thre
 ## Go deeper
 
 - [Grokking Multithreading and Concurrency for Coding Interviews](https://www.designgurus.io/course/grokking-multithreading-and-concurrency-for-coding-interviews?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-threads-vs-processes) starts from these fundamentals and builds up to full interview problems.
+- Lesson: [Programs, Processes, and Threads](https://www.designgurus.io/course-play/grokking-multithreading-and-concurrency-for-coding-interviews/doc/program-process-and-thread-a-quick-look?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-threads-vs-processes), in Grokking Multithreading and Concurrency for Coding Interviews
+- Lesson: [When Processes Pay Off](https://www.designgurus.io/course-play/grokking-concurrency-in-python/doc/when-processes-pay-off?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-threads-vs-processes), in Grokking Concurrency in Python
+- Lesson: [Goroutines and What They Cost](https://www.designgurus.io/course-play/grokking-concurrency-in-go/doc/goroutines-and-what-they-cost?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-threads-vs-processes), in Grokking Concurrency in Go
 - [Grokking Concurrency in Go](https://www.designgurus.io/course/grokking-concurrency-in-go?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-threads-vs-processes) explains goroutines and the Go scheduler.
 - Next page: [race conditions](race-conditions.md).
 - Free article: [Concurrency vs Parallelism: Why They're Not the Same Thing](https://www.designgurus.io/blog/concurrency-vs-parallelism?utm_source=github&utm_medium=repo&utm_campaign=concurrency-interview&utm_content=concepts-threads-vs-processes), the distinction behind this choice.
